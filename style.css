@@ -1,3 +1,240 @@
 * {
-    ma
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 1440px;
+    height: 4766px;
+    background: linear-gradient(223.15deg, rgba(29.735246658325195, 12.488805770874023, 0, 1), rgba(30.818008422851562, 7.396315097808838, 0, 1) 31%, rgba(23.360246658325195, 9.949307441711426, 0.2379356324672699, 1) 69%, rgba(29.735246658325195, 12.736329078674316, 0.4267646074295044, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 60px;
+}
+
+.head {
+    width: 1253px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background: linear-gradient(223.15deg, rgba(29.735246658325195, 12.488805770874023, 0, 1), rgba(30.818008422851562, 7.396315097808838, 0, 1) 31%, rgba(23.360246658325195, 9.949307441711426, 0.2379356324672699, 1) 69%, rgba(29.735246658325195, 12.736329078674316, 0.4267646074295044, 1) 100%);
+    border-radius: 55px;
+}
+
+.head ul {
+    display: flex;
+    gap: 80px;
+}
+
+.head li {
+    color: rgba(163, 163, 163, 1);
+    list-style: none;
+}
+
+.head li:hover {
+    color: rgba(253.92274475097656, 156.27853393554688, 27.97859764099121, 1);
+    cursor: pointer;
+}
+
+.head .login {
+    width: 164px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    font: 700;
+    border-radius: 50px;
+    background: linear-gradient(215.37deg, rgba(255, 92.9384994506836, 40.84730529785156, 1), rgba(253.92274475097656, 156.27853393554688, 27.97859764099121, 1) 100%);
+    cursor: pointer;
+}
+
+.head .login:hover {
+    background: linear-gradient(215.37deg, rgba(253.92274475097656, 156.27853393554688, 27.97859764099121, 1), rgba(255, 92.9384994506836, 40.84730529785156, 1) 100%);
+}
+
+.head .cart {
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(215.37deg, rgba(255, 92.9384994506836, 40.84730529785156, 1), rgba(253.92274475097656, 156.27853393554688, 27.97859764099121, 1) 100%);
+    cursor: pointer;
+}
+
+.head .cart:hover {
+    background: linear-gradient(215.37deg, rgba(253.92274475097656, 156.27853393554688, 27.97859764099121, 1), rgba(255, 92.9384994506836, 40.84730529785156, 1) 100%);
+}
+
+.cart img {
+    width: 24px;
+    height: 20px;
+}
+
+.pizzashop {
+    color: rgba(255, 100.17498016357422, 50.40979766845703, 1);
+    font-size: 34.06px;
+    font-weight: 800;
+}
+
+.headBtns {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------section1------------------------------*/
+
+.section1 {
+    width: 1253px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1Text {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section1Text .light {
+    position: absolute;
+    left: 145px;
+    top: 88px;
+}
+
+.section1Text .line1 {
+    position: absolute;
+    left: 370px;
+    top: 20px;
+}
+
+.section1Text .cookprocess {
+    width: 272px;
+    height: 193px;
+}
+
+.processImg {
+    width: 275px;
+    height: 200px;
+    position: relative;
+}
+
+.stop {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 104px;
+    left: 125px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.krugStop {
+    position: absolute;
+    left: 87px;
+    top: 70px;
+    width: 95px;
+    height: 95px;
+    cursor: pointer;
+}
+
+.krugStop:hover {
+    transform: scale(1.1);
+}
+
+.stop:hover {
+    transform: scale(1.1);
+}
+
+.section1Text p {
+    color: rgba(163, 163, 163, 1);
+}
+
+.section1Text span {
+    color: white;
+}
+
+
+.delivery {
+    font-size: 70px;
+    font: 800;
+    line-height: 83px;
+}
+
+.btnGroup {
+    display: flex;
+    position: relative;
+    width: 460px;
+}
+
+.btnOrder {
+    background: linear-gradient(90deg, #ff4500, #ff9900);
+    color: #fff;
+    border-radius: 50px;
+    font-size: 22px;
+    width: 230px;
+    height: 63px;
+    border: none;
+    z-index: 10;
+}
+
+.btnMenu {
+    width: 230px;
+    height: 63px;
+    border: #ff9900 solid;
+    font-size: 22px;
+    background: transparent;
+    color: #ff6600;
+    border-radius: 50px;
+    position: absolute;
+    right: 53px;
+}
+
+.section1Img {
+    position: relative;
+    width: 456px;
+    height: 683px;
+}
+
+.section1img1 {
+    width: 456px;
+    height: 683px;
+}
+
+.section1img2 {
+    width: 212.72px;
+    height: 226.1px;
+    transform: rotate(-15.28deg);
+    position: absolute;
+    left: -120px;
+    bottom: -60px;
+}
+
+.section1img3 {
+    width: 251.91px;
+    height: 251.91px;
+    transform: rotate(4.20deg);
+    position: absolute;
+    top: -100px;
+    right: -100px;
+}
+
+.line2 {
+    width: 189.67px;
+    height: 66.22px;
+    transform: rotate(24.66deg);
+    position: absolute;
+    bottom: -50px;
+    left: 500px;
 }
